@@ -1,1 +1,21 @@
-/* css styles */
+/* Make the about-page image circular */
+.quarto-about .about-image img {
+  border-radius: 50%;
+}
+
+/* Move the image further left (remove extra left spacing) */
+.quarto-about .about-image {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Remove the vertical line between image and content */
+.quarto-about .about-contents {
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+
+/* Optionally tighten the gap between image and content */
+.quarto-about .quarto-about-container {
+  column-gap: 1rem;
+}
